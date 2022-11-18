@@ -1,0 +1,41 @@
+$White: #ffffff;
+$greyWhite: #e9e9e9;
+$grey: #c5c5c5;
+
+.App {
+  height: calc(100vh - 90px);
+  background: $White;
+}
+
+.header {
+  padding: 5px;
+  height: 50px;
+  width: 100%;
+  background: $White;
+  border-bottom: 1px solid;
+  border-color: $grey;
+  box-shadow: 0 0 4px 0 $grey;
+}
+
+.navBar {
+  width: 200px;
+  height: 100%;
+  background: $greyWhite;
+  
+}
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls {
+  background: $greyWhite;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: white;
+}
